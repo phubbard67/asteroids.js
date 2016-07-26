@@ -1,0 +1,41 @@
+
+/*body styles*/
+body{
+  background-color: #999;
+  text-align: center;
+}
+/*canvas styles*/
+canvas{
+  transition: 3s;
+  background: #001;
+  display: block;
+  margin-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #fff;
+}
+canvas:hover{
+  transition: border-radius 3s;
+  border-radius: 5%;
+}
+
+.button{
+  transition-duration: 3s;
+  color: #fff;
+  background-color: #990;
+  padding: 3% 2%;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 1.2em;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Shadows Into Light', cursive;
+  border: 1px solid #fff;
+}
+
+
+.button:hover{
+  transition: border-radius .5s;
+  border-radius: 50%;
+}

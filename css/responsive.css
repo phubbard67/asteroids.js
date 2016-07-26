@@ -1,0 +1,84 @@
+@media only screen and (min-width: 900px) {
+
+	#index {
+		transition-property: background;
+		transition-duration: 3s;
+		padding-top: 1px;
+		height: 700px;
+
+	}
+	#paul a {
+		transition-duration: 1s;
+	}
+	#paul{
+		margin: 100px 75% 0 28%;
+		background: #fff;
+		padding-top: 150px;
+		height: 300px;
+		width: 500px;
+		border-radius: 6%;
+		transition-duration: 3s;
+	}
+	#paul:hover {
+		color: #666;
+		background: #666;
+		border-radius: 50%;
+		background: #fff;
+		box-shadow: 2px 3px 5px #333;
+		transition-duration: 5s;
+
+
+	}
+	#paul a:hover {
+		color: #fff;
+		transition;
+		transition-duration: 2s;
+	}
+	#index:hover {
+		background: #666;
+		transition-property: background;
+		transition-duration: 5s;
+	}
+
+	/* home.html */
+	#port,
+	#about,
+	#games{
+		border: 1px solid #999;
+		transition: border-radius 1.5s;
+		max-width: 225px;
+		height: 225px;
+	}
+	#port h2,
+	#about h2,
+	#games h2 {
+		margin-top: 40%;
+	}
+	#port{
+		margin: 100px 120px 0 22%;
+	}
+	#games{
+		margin: -75px 120px 0 22%;
+	}
+	#about{
+		margin: -75px 5% 0 60%;
+	}
+	#about:hover,
+	#port:hover,
+	#games:hover {
+		border-radius: 100%;
+		transition: border-radius , border,  3s;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	#port{
+		margin: 100px 120px 0 23%;
+	}
+	#games{
+		margin: -75px 120px 0 23%;
+	}
+	#about{
+		margin: -75px 2% 0 55%;
+	}
+}

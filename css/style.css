@@ -1,0 +1,60 @@
+
+/*****************Basic styles***********************/
+
+body{
+	background: #fff;
+
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+/************** styles for index.html ************/
+
+#paul,
+#hubbard,
+#webDev {
+	text-align: center;
+}
+
+#paul{
+	background: #fff;
+	margin-top: 160px;
+	height: 250px;
+	padding-top: 100px;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 1.25em;
+
+}
+
+}
+#webDev {
+	margin: 135px 0 0 0;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 1.5em;
+}
+
+/**************** Styles for home ****************/
+
+#port,
+#about,
+#games {
+	/*border: 1px dotted black;*/
+	text-align: center;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 1.2em;
+}
+#port {
+	margin-top: 145px;
+}
+#about,
+#games {
+	margin-top: 100px;
+}
+#home{
+	padding-top: 1px;
+	height: 700px;
+	background: #666 ;
+}
